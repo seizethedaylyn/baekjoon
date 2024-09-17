@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.yaml": "dart",
+    "iostream": "cpp"
+  }
+}
