@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "*.yaml": "dart",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp"
   }
 }
