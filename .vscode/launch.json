@@ -9,6 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+      "cwd": "${workspaceFolder}",        
       "stopAtEntry": false,
       "console": "integratedTerminal",
       "customLaunchSetupCommands": [
@@ -25,7 +26,8 @@
       "windows": {
         "MIMode": "gdb",
         "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe"
-      }
+      },
+      "targetArchitecture": "arm64" 
     }
     
   ]
